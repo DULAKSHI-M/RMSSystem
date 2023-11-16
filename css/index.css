@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Poppins&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+}
+h1{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 1;
+    font-size: 5vw;
+    animation: h 1s linear ;
+    color: rgb(55, 68, 255);
+}
+@keyframes h {
+    from{
+        opacity: 0;
+    }
+}
+
+#celibrate{
+    width: 80%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    animation: a 2s linear infinite;
+    
+}
+
+@keyframes a {
+    0%{
+        transform: translate(-50%,-50%);
+    }
+    50%{
+        transform: translate(-50%,-45%);
+    }
+    100%{
+        transform: translate(-50%,-50%);
+    }
+    
+}
+
+#img{
+    width: 50%;
+    height: 100vh;
+    animation: h 1s linear ;
+    position: relative;
+    display: none;
+}
+#img img{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+   
+   
+}
+#stu{
+    width: 40%;
+    transform: translate(-50%,-10%);
+}
+#item{
+    width: 60%;
+    transform: translate(-40%,-50%);
+    animation: i 2s linear infinite;
+}
+@keyframes i {
+    0%{
+        transform: translate(-40%,-50%);
+    }
+    50%{
+        transform: translate(-40%,-45%);
+    }
+    100%{
+        transform: translate(-40%,-50%);
+    }
+    
+}
+#btn{
+    width: 50%;
+    height: 100vh;
+    position: relative;
+    animation: h 1s linear ;
+    background-color: rgb(113, 158, 255);
+    display: none;
+}
+#btn .in{
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+#btn button{
+    width: 60%;
+    height: 60px;
+    margin: 15px;
+    cursor: pointer;
+    border: 0px;
+    background-color: rgb(61, 90, 255);
+    color: white;
+    font-size: 25px;
+    border-radius: 5px;
+}
+#btn button:hover{
+    background-color: rgb(40, 72, 255);
+}
+
+#hello,#wel{
+    width: 20%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-130%);
+    animation: greet .5s linear;
+    display: none;
+}
+
+@keyframes greet {
+    from{
+        transform: translate(-50%,-120%);
+        opacity: 0;
+    }
+    
+}

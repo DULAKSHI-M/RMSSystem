@@ -1,0 +1,14 @@
+{
+    "admins": [
+        {
+            "AID": "1381",
+            "email": "a@gmail.com",
+            "password": "1111"
+        },
+        {
+            "AID": "3041",
+            "email": "b@gmail.com",
+            "password": "222"
+        }
+    ]
+}

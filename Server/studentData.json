@@ -1,0 +1,30 @@
+{
+    "students": [
+        {
+            "SID": "1805",
+            "FirstName": "Naruto",
+            "LastName": "Uzumaki",
+            "Email": "naruto@gmail.com",
+            "NearCity": "Leaf Village",
+            "Course": "IT",
+            "Guardian": "Minato",
+            "Subjects": [
+                "DSA",
+                "ORDBMS",
+                "CS"
+            ]
+        },
+        {
+            "SID": "0071",
+            "FirstName": "Itachi",
+            "LastName": "Uchiha",
+            "Email": "itachi@gmail.com",
+            "NearCity": "Leaf",
+            "Course": "CS",
+            "Guardian": "Fugaku",
+            "Subjects": [
+                "DSA"
+            ]
+        }
+    ]
+}
